@@ -1,0 +1,14 @@
+.relleno{
+    background-color:  var(--color-fondo);
+}
+.edu-title{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    display: inline;
+    background-color: var(--color-fondo);
+    color: var(--color-text);
+    font-size: var(--size-title);
+}

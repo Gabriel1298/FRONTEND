@@ -1,0 +1,19 @@
+#H-nav{
+    background-color: #547462;
+    width: 100%;
+}
+pp-logo{
+   float: left;
+   margin: 0;
+}
+/* app-redsocial-logo{
+    float:right;
+    margin-top: 20px;
+    margin-right: 5px;
+    
+} */
+
+.boton{
+    
+    float: right;
+}

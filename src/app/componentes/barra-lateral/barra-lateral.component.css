@@ -1,0 +1,14 @@
+.relleno{
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    width: 90px;
+    
+    /* position: sticky; */
+    top:250px;
+    
+    z-index: 10000;
+    float: right;
+    justify-content: center;
+    
+}

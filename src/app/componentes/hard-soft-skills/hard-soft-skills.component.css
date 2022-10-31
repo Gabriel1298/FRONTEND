@@ -1,0 +1,39 @@
+/* .relleno{
+    background-color:  var(--color-fondo);
+}
+.edu-title{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    display: inline;
+    background-color: var(--color-fondo);
+    color: var(--color-text);
+} */
+
+
+.con-prin{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contenedor{
+    background-color: var(--backgroun-color);
+    padding-bottom: 50px;
+}
+
+.btn-agregar{
+    background-color: var(--color-fondo);
+    padding-bottom: 15px;
+}
+
+.botones{
+    margin: 5px;
+}
+
+.colorFondo{
+    background-color: var(--backgroun-color);
+}
+
+
