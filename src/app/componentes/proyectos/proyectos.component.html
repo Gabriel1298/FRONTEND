@@ -1,26 +1,50 @@
 <app-title-section [colorTitulo]="colordeltitulo" [tamanioTitulo]="sizeTitleSection" [titleSection]="tituloProyect" [backgroundcolor]="backgroundColorPROY"></app-title-section>
-<div class="container-fluid contenedor" [style.--color-fondo]="backgroundColorPROY">
-   <div class="row cont">
-      <div class="col-md-10 prueba ">
-         <h4>Titulo del proyecto.</h4>
-         <div class="row exp-item" [style.--color-fondo-exp-item]="colorFondoPROItem">
-            <div class="col-sm-12 col-md-2 con-exp-img">
-               <img src="../../../assets/relleno.jpg" class="exp-img">
-               <!-- class="img-thumbnail float-start img-exp" -->
-            </div>
-            <div class="col-sm-12 col-md-10 con-exp-text">
-               <p class="exp-text">Lorem ipsum dolor sit amet consectetur ad
-                  ipisicing elit. Excepturi cum earum explicabo veritatis maxime repellat, aliquid rem tenetur
-                  quas, quaerat quam molestias asperiores sapiente facilis nobis modi dolore soluta neque.
-                  Lorem ipsum dolor sit amet consectetur ad
-                  ipisicing elit. Excepturi cum earum explicabo veritatis maxime repellat, aliquid rem tenetur
-                  quas, quaerat quam molestias asperiores sapiente facilis nobis modi dolore soluta neque.
-                  Lorem ipsum dolor sit amet consectetur ad
-                  ipisicing elit. Excepturi cum olore soluta neque.</p>
-            </div>
-         </div>
 
 
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+   <div class="row">
+       <div class="col-md-1 relleno relleno-2"[style.background-color]="backgroundColorPROY"></div>
+       <div class="col-sm-12 col-md-10 cont-exp-item" [style.background-color]="backgroundColorPROY">
+
+
+           <div class="row exp-item" [style.background-color]="colorROItem">
+               <div class="col-sm-12 col-md-2 con-exp-img">
+                  <img src="../../../assets/proyectos.png" class="exp-img"> <!-- class="img-thumbnail float-start img-exp" -->
+                   
+               </div>
+               <div class="col-sm-12 col-md-10 con-exp-text">
+                   <h4>Argentina Programa</h4>
+                   
+                   <p class="exp-text" >En el proyecto final de la capacitación de Argentina Programa se nos dio el desafio de desarrollar un portfolio web, esta misma web es producto de ese desafío.</p>
+               </div>
+
+               
+           </div>
+
+
+           
+     
+       </div>
+       <div class="col-md-1 relleno relleno-2 " [style.background-color]="backgroundColorPROY"></div>
    </div>
+
 </div>

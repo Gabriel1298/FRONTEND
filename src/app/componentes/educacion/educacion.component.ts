@@ -21,7 +21,7 @@ export class EducacionComponent implements OnInit {
 
   
   backgroundColorEDU:any="#547462"; //variable para cambiar color de fondo del componente educacion;
-  colorFondoItemEDU:any="#"+"93063E"; //variable para cambiar color de fondo item de educacion;
+  colorFondoItemEDU:any="#6e9f84"; //variable para cambiar color de fondo item de educacion;
   colotTituloEdu:any="#C90035";
   
   

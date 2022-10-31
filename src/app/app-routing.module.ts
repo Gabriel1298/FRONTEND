@@ -17,7 +17,7 @@ const routes:Routes=[
   {path:'editaexp/:id',component:EditExperienciaComponent},
   {path:'nuevaedu',component:NeweducacionComponent},
   {path:'editedu/:id',component:EditeducacionComponent},
-  {path: 'nuevaskill',component:NewSkillComponent}, //edithys
+  {path:'nuevaskill',component:NewSkillComponent}, //edithys
   {path:'edithys/:id',component:EditSkillComponent}
 ]
 

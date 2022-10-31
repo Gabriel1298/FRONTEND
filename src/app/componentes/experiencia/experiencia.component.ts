@@ -25,7 +25,7 @@ export class ExperienciaComponent implements OnInit {
 
 
   backgroundColorEXP:any="#547462" //variable para cambiar color de fondo del componente experiencia;
-  colorFondoExpItem:any="#5B1647"; //variable para cambiar color de fondo item de exp;
+  colorFondoExpItem:any="#6e9f84"; //variable para cambiar color de fondo item de exp;
   colotTituloExp:any="#5B1647";
 
   valortitulosection:string="Experiencia Laboral";

@@ -11,10 +11,10 @@ export class ProyectosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  colorFondoPROItem:string="#FFC400"; // cambiar color de fondo del item
+  colorROItem:string="#6e9f84"; // cambiar color de fondo del item
   tituloProyect:string="Proyectos"; // Valor del titulo de la section "Proyectos";
-  backgroundColorPROY:string="#FFC400"; // color de fondo de la section "Proyectos";
+  backgroundColorPROY:string="#547462"; // color de fondo de la section "Proyectos";
   sizeTitleSection:string="40px"; //tamanio del titulo de la section "Proyectos";
-  colordeltitulo:string="blue"; // color del titulo de la section "Proyectos";
+  colordeltitulo:string="black"; // color del titulo de la section "Proyectos";
   
 }
